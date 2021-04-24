@@ -1,148 +1,964 @@
 {
-    "tokens": [
-        {
-            "id": 0,
-            "name": "The Chainlink Elf",
-            "description": "Inspiring, Based, Mythical, Oracle loving creature. Leading the new world and helping teach about superior digital agreements. Also is good with a bow!",
-            "image": "https://ipfs.io/ipfs/QmPZCdAueeE93draXtQTMzi7Vq4oYfxaSJ2ftkw3NrbQPL",
-            "attributes": [
-                {
-                    "trait_type": "Strength",
-                    "value": 0
-                },
-                {
-                    "trait_type": "Dexterity",
-                    "value": 0
-                },
-                {
-                    "trait_type": "Constitution",
-                    "value": 0
-                },
-                {
-                    "trait_type": "Intelligence",
-                    "value": 0
-                },
-                {
-                    "trait_type": "Wisdom",
-                    "value": 0
-                },
-                {
-                    "trait_type": "Charisma",
-                    "value": 0
-                },
-                {
-                    "trait_type": "Experience",
-                    "value": 0
-                }
-            ]
-        },
-        {
-            "id": 1,
-            "name": "The Elf",
-            "description": "Inspiring, Based, Mythical, Oracle loving creature. Leading the new world and helping teach about superior digital agreements. Also is good with a bow!",
-            "image": "https://ipfs.io/ipfs/QmPZCdAueeE93draXtQTMzi7Vq4oYfxaSJ2ftkw3NrbQPL",
-            "attributes": [
-                {
-                    "trait_type": "Strength",
-                    "value": 1
-                },
-                {
-                    "trait_type": "Dexterity",
-                    "value": 1
-                },
-                {
-                    "trait_type": "Constitution",
-                    "value": 1
-                },
-                {
-                    "trait_type": "Intelligence",
-                    "value": 1
-                },
-                {
-                    "trait_type": "Wisdom",
-                    "value": 1
-                },
-                {
-                    "trait_type": "Charisma",
-                    "value": 1
-                },
-                {
-                    "trait_type": "Experience",
-                    "value": 0
-                }
-            ]
-        },
-        {
-            "id": 2,
-            "name": "The Chainlink",
-            "description": "Inspiring, Based, Mythical, Oracle loving creature. Leading the new world and helping teach about superior digital agreements. Also is good with a bow!",
-            "image": "https://ipfs.io/ipfs/QmPZCdAueeE93draXtQTMzi7Vq4oYfxaSJ2ftkw3NrbQPL",
-            "attributes": [
-                {
-                    "trait_type": "Strength",
-                    "value": 2
-                },
-                {
-                    "trait_type": "Dexterity",
-                    "value": 2
-                },
-                {
-                    "trait_type": "Constitution",
-                    "value": 2
-                },
-                {
-                    "trait_type": "Intelligence",
-                    "value": 2
-                },
-                {
-                    "trait_type": "Wisdom",
-                    "value": 2
-                },
-                {
-                    "trait_type": "Charisma",
-                    "value": 2
-                },
-                {
-                    "trait_type": "Experience",
-                    "value": 0
-                }
-            ]
-        },
-        {
-            "id": 3,
-            "name": "The Next Chainlink",
-            "description": "Inspiring, Based, Mythical, Oracle loving creature. Leading the new world and helping teach about superior digital agreements. Also is good with a bow!",
-            "image": "https://ipfs.io/ipfs/QmPZCdAueeE93draXtQTMzi7Vq4oYfxaSJ2ftkw3NrbQPL",
-            "attributes": [
-                {
-                    "trait_type": "Strength",
-                    "value": 2
-                },
-                {
-                    "trait_type": "Dexterity",
-                    "value": 2
-                },
-                {
-                    "trait_type": "Constitution",
-                    "value": 2
-                },
-                {
-                    "trait_type": "Intelligence",
-                    "value": 2
-                },
-                {
-                    "trait_type": "Wisdom",
-                    "value": 2
-                },
-                {
-                    "trait_type": "Charisma",
-                    "value": 2
-                },
-                {
-                    "trait_type": "Experience",
-                    "value": 0
-                }
-            ]
-        }
-    ]
+"tokens": [
+{
+  "id": 0,
+  "name": "map 0",
+  "description": "A piece of the treasure hunt",
+  "image": "https://ipfs.io/ipfs/QmPLnXTgff9BjGyqVSdNAMMSzSQqf7edRRQa4gD3MPfqDw?filename=question_mark.jpg",
+  "external_url": "https://openseacreatures.io/0",
+  "attributes": [
+    {
+      "trait_type": "Base",
+      "value": "jellyfish"
+    },
+    {
+      "trait_type": "Eyes",
+      "value": "big"
+    },
+    {
+      "trait_type": "Mouth",
+      "value": "happy"
+    },
+    {
+      "trait_type": "Level",
+      "value": 5
+    },
+    {
+      "trait_type": "Stamina",
+      "value": 1.4
+    },
+    {
+      "trait_type": "Personality",
+      "value": "Happy"
+    },
+    {
+      "trait_type": "Aqua Power",
+      "value": 10,
+      "display_type": "boost_number"
+    },
+    {
+      "trait_type": "Stamina Increase",
+      "value": 5,
+      "display_type": "boost_percentage"
+    },
+    {
+      "trait_type": "Generation",
+      "value": 1,
+      "display_type": "number"
+    }
+  ]
+},
+{
+  "id": 1,
+  "name": "map 1",
+  "description": "A piece of the treasure hunt",
+  "image": "https://ipfs.io/ipfs/QmPLnXTgff9BjGyqVSdNAMMSzSQqf7edRRQa4gD3MPfqDw?filename=question_mark.jpg",
+  "external_url": "https://openseacreatures.io/1",
+  "attributes": [
+    {
+      "trait_type": "Base",
+      "value": "starfish"
+    },
+    {
+      "trait_type": "Eyes",
+      "value": "joy"
+    },
+    {
+      "trait_type": "Mouth",
+      "value": "surprised"
+    },
+    {
+      "trait_type": "Level",
+      "value": 2
+    },
+    {
+      "trait_type": "Stamina",
+      "value": 2.3
+    },
+    {
+      "trait_type": "Personality",
+      "value": "Sad"
+    },
+    {
+      "trait_type": "Aqua Power",
+      "value": 40,
+      "display_type": "boost_number"
+    },
+    {
+      "trait_type": "Stamina Increase",
+      "value": 10,
+      "display_type": "boost_percentage"
+    },
+    {
+      "trait_type": "Generation",
+      "value": 2,
+      "display_type": "number"
+    }
+  ]
+},
+{
+  "id": 2,
+  "name": "map 2",
+  "description": "A piece of the treasure hunt",
+  "image": "https://ipfs.io/ipfs/QmPLnXTgff9BjGyqVSdNAMMSzSQqf7edRRQa4gD3MPfqDw?filename=question_mark.jpg",
+  "external_url": "https://openseacreatures.io/2",
+  "attributes": [
+    {
+      "trait_type": "Base",
+      "value": "crab"
+    },
+    {
+      "trait_type": "Eyes",
+      "value": "wink"
+    },
+    {
+      "trait_type": "Mouth",
+      "value": "pleased"
+    },
+    {
+      "trait_type": "Level",
+      "value": 3
+    },
+    {
+      "trait_type": "Stamina",
+      "value": 11.7
+    },
+    {
+      "trait_type": "Personality",
+      "value": "Sleepy"
+    },
+    {
+      "trait_type": "Aqua Power",
+      "value": 30,
+      "display_type": "boost_number"
+    },
+    {
+      "trait_type": "Stamina Increase",
+      "value": 15,
+      "display_type": "boost_percentage"
+    },
+    {
+      "trait_type": "Generation",
+      "value": 1,
+      "display_type": "number"
+    }
+  ]
+},
+{
+  "id": 3,
+  "name": "map 3",
+  "description": "A piece of the treasure hunt",
+  "image": "https://ipfs.io/ipfs/QmPLnXTgff9BjGyqVSdNAMMSzSQqf7edRRQa4gD3MPfqDw?filename=question_mark.jpg",
+  "external_url": "https://openseacreatures.io/3",
+  "attributes": [
+    {
+      "trait_type": "Base",
+      "value": "narwhal"
+    },
+    {
+      "trait_type": "Eyes",
+      "value": "sleepy"
+    },
+    {
+      "trait_type": "Mouth",
+      "value": "cute"
+    },
+    {
+      "trait_type": "Level",
+      "value": 4
+    },
+    {
+      "trait_type": "Stamina",
+      "value": 90.2
+    },
+    {
+      "trait_type": "Personality",
+      "value": "Boring"
+    },
+    {
+      "trait_type": "Aqua Power",
+      "value": 10,
+      "display_type": "boost_number"
+    },
+    {
+      "trait_type": "Stamina Increase",
+      "value": 5,
+      "display_type": "boost_percentage"
+    },
+    {
+      "trait_type": "Generation",
+      "value": 1,
+      "display_type": "number"
+    }
+  ]
+},
+{
+  "id": 4,
+  "name": "map 4",
+  "description": "A piece of the treasure hunt",
+  "image": "https://ipfs.io/ipfs/QmPLnXTgff9BjGyqVSdNAMMSzSQqf7edRRQa4gD3MPfqDw?filename=question_mark.jpg",
+  "external_url": "https://openseacreatures.io/4",
+  "attributes": [
+    {
+      "trait_type": "Base",
+      "value": "tealfish"
+    },
+    {
+      "trait_type": "Eyes",
+      "value": "content"
+    },
+    {
+      "trait_type": "Mouth",
+      "value": "happy"
+    },
+    {
+      "trait_type": "Level",
+      "value": 8
+    },
+    {
+      "trait_type": "Stamina",
+      "value": 1.2
+    },
+    {
+      "trait_type": "Personality",
+      "value": "Happy"
+    },
+    {
+      "trait_type": "Aqua Power",
+      "value": 40,
+      "display_type": "boost_number"
+    },
+    {
+      "trait_type": "Stamina Increase",
+      "value": 10,
+      "display_type": "boost_percentage"
+    },
+    {
+      "trait_type": "Generation",
+      "value": 1,
+      "display_type": "number"
+    }
+  ]
+},
+{
+  "id": 5,
+  "name": "map 5",
+  "description": "A piece of the treasure hunt",
+  "image": "https://ipfs.io/ipfs/QmPLnXTgff9BjGyqVSdNAMMSzSQqf7edRRQa4gD3MPfqDw?filename=question_mark.jpg",
+  "external_url": "https://openseacreatures.io/5",
+  "attributes": [
+    {
+      "trait_type": "Base",
+      "value": "goldfish"
+    },
+    {
+      "trait_type": "Eyes",
+      "value": "big"
+    },
+    {
+      "trait_type": "Mouth",
+      "value": "surprised"
+    },
+    {
+      "trait_type": "Level",
+      "value": 5
+    },
+    {
+      "trait_type": "Stamina",
+      "value": 1.4
+    },
+    {
+      "trait_type": "Personality",
+      "value": "Sad"
+    },
+    {
+      "trait_type": "Aqua Power",
+      "value": 30,
+      "display_type": "boost_number"
+    },
+    {
+      "trait_type": "Stamina Increase",
+      "value": 15,
+      "display_type": "boost_percentage"
+    },
+    {
+      "trait_type": "Generation",
+      "value": 2,
+      "display_type": "number"
+    }
+  ]
+},
+{
+  "id": 6,
+  "name": "map 6",
+  "description": "A piece of the treasure hunt",
+  "image": "https://ipfs.io/ipfs/QmPLnXTgff9BjGyqVSdNAMMSzSQqf7edRRQa4gD3MPfqDw?filename=question_mark.jpg",
+  "external_url": "https://openseacreatures.io/6",
+  "attributes": [
+    {
+      "trait_type": "Base",
+      "value": "jellyfish"
+    },
+    {
+      "trait_type": "Eyes",
+      "value": "joy"
+    },
+    {
+      "trait_type": "Mouth",
+      "value": "pleased"
+    },
+    {
+      "trait_type": "Level",
+      "value": 2
+    },
+    {
+      "trait_type": "Stamina",
+      "value": 2.3
+    },
+    {
+      "trait_type": "Personality",
+      "value": "Sleepy"
+    },
+    {
+      "trait_type": "Aqua Power",
+      "value": 10,
+      "display_type": "boost_number"
+    },
+    {
+      "trait_type": "Stamina Increase",
+      "value": 5,
+      "display_type": "boost_percentage"
+    },
+    {
+      "trait_type": "Generation",
+      "value": 1,
+      "display_type": "number"
+    }
+  ]
+},
+{
+  "id": 7,
+  "name": "map 7",
+  "description": "A piece of the treasure hunt",
+  "image": "https://ipfs.io/ipfs/QmPLnXTgff9BjGyqVSdNAMMSzSQqf7edRRQa4gD3MPfqDw?filename=question_mark.jpg",
+  "external_url": "https://openseacreatures.io/7",
+  "attributes": [
+    {
+      "trait_type": "Base",
+      "value": "starfish"
+    },
+    {
+      "trait_type": "Eyes",
+      "value": "wink"
+    },
+    {
+      "trait_type": "Mouth",
+      "value": "cute"
+    },
+    {
+      "trait_type": "Level",
+      "value": 3
+    },
+    {
+      "trait_type": "Stamina",
+      "value": 11.7
+    },
+    {
+      "trait_type": "Personality",
+      "value": "Boring"
+    },
+    {
+      "trait_type": "Aqua Power",
+      "value": 40,
+      "display_type": "boost_number"
+    },
+    {
+      "trait_type": "Stamina Increase",
+      "value": 10,
+      "display_type": "boost_percentage"
+    },
+    {
+      "trait_type": "Generation",
+      "value": 1,
+      "display_type": "number"
+    }
+  ]
+},
+{
+  "id": 8,
+  "name": "map 8",
+  "description": "A piece of the treasure hunt",
+  "image": "https://ipfs.io/ipfs/QmPLnXTgff9BjGyqVSdNAMMSzSQqf7edRRQa4gD3MPfqDw?filename=question_mark.jpg",
+  "external_url": "https://openseacreatures.io/8",
+  "attributes": [
+    {
+      "trait_type": "Base",
+      "value": "crab"
+    },
+    {
+      "trait_type": "Eyes",
+      "value": "sleepy"
+    },
+    {
+      "trait_type": "Mouth",
+      "value": "happy"
+    },
+    {
+      "trait_type": "Level",
+      "value": 4
+    },
+    {
+      "trait_type": "Stamina",
+      "value": 90.2
+    },
+    {
+      "trait_type": "Personality",
+      "value": "Happy"
+    },
+    {
+      "trait_type": "Aqua Power",
+      "value": 30,
+      "display_type": "boost_number"
+    },
+    {
+      "trait_type": "Stamina Increase",
+      "value": 15,
+      "display_type": "boost_percentage"
+    },
+    {
+      "trait_type": "Generation",
+      "value": 1,
+      "display_type": "number"
+    }
+  ]
+},
+{
+  "id": 9,
+  "name": "map 9",
+  "description": "A piece of the treasure hunt",
+  "image": "https://ipfs.io/ipfs/QmPLnXTgff9BjGyqVSdNAMMSzSQqf7edRRQa4gD3MPfqDw?filename=question_mark.jpg",
+  "external_url": "https://openseacreatures.io/9",
+  "attributes": [
+    {
+      "trait_type": "Base",
+      "value": "narwhal"
+    },
+    {
+      "trait_type": "Eyes",
+      "value": "content"
+    },
+    {
+      "trait_type": "Mouth",
+      "value": "surprised"
+    },
+    {
+      "trait_type": "Level",
+      "value": 8
+    },
+    {
+      "trait_type": "Stamina",
+      "value": 1.2
+    },
+    {
+      "trait_type": "Personality",
+      "value": "Sad"
+    },
+    {
+      "trait_type": "Aqua Power",
+      "value": 10,
+      "display_type": "boost_number"
+    },
+    {
+      "trait_type": "Stamina Increase",
+      "value": 5,
+      "display_type": "boost_percentage"
+    },
+    {
+      "trait_type": "Generation",
+      "value": 2,
+      "display_type": "number"
+    }
+  ]
+},
+{
+  "id": 10,
+  "name": "map 10",
+  "description": "A piece of the treasure hunt",
+  "image": "https://ipfs.io/ipfs/QmPLnXTgff9BjGyqVSdNAMMSzSQqf7edRRQa4gD3MPfqDw?filename=question_mark.jpg",
+  "external_url": "https://openseacreatures.io/10",
+  "attributes": [
+    {
+      "trait_type": "Base",
+      "value": "tealfish"
+    },
+    {
+      "trait_type": "Eyes",
+      "value": "big"
+    },
+    {
+      "trait_type": "Mouth",
+      "value": "pleased"
+    },
+    {
+      "trait_type": "Level",
+      "value": 5
+    },
+    {
+      "trait_type": "Stamina",
+      "value": 1.4
+    },
+    {
+      "trait_type": "Personality",
+      "value": "Sleepy"
+    },
+    {
+      "trait_type": "Aqua Power",
+      "value": 40,
+      "display_type": "boost_number"
+    },
+    {
+      "trait_type": "Stamina Increase",
+      "value": 10,
+      "display_type": "boost_percentage"
+    },
+    {
+      "trait_type": "Generation",
+      "value": 1,
+      "display_type": "number"
+    }
+  ]
+},
+{
+  "id": 11,
+  "name": "map 11",
+  "description": "A piece of the treasure hunt",
+  "image": "https://ipfs.io/ipfs/QmPLnXTgff9BjGyqVSdNAMMSzSQqf7edRRQa4gD3MPfqDw?filename=question_mark.jpg",
+  "external_url": "https://openseacreatures.io/11",
+  "attributes": [
+    {
+      "trait_type": "Base",
+      "value": "goldfish"
+    },
+    {
+      "trait_type": "Eyes",
+      "value": "joy"
+    },
+    {
+      "trait_type": "Mouth",
+      "value": "cute"
+    },
+    {
+      "trait_type": "Level",
+      "value": 2
+    },
+    {
+      "trait_type": "Stamina",
+      "value": 2.3
+    },
+    {
+      "trait_type": "Personality",
+      "value": "Boring"
+    },
+    {
+      "trait_type": "Aqua Power",
+      "value": 30,
+      "display_type": "boost_number"
+    },
+    {
+      "trait_type": "Stamina Increase",
+      "value": 15,
+      "display_type": "boost_percentage"
+    },
+    {
+      "trait_type": "Generation",
+      "value": 1,
+      "display_type": "number"
+    }
+  ]
+},
+{
+  "id": 12,
+  "name": "map 12",
+  "description": "A piece of the treasure hunt",
+  "image": "https://ipfs.io/ipfs/QmPLnXTgff9BjGyqVSdNAMMSzSQqf7edRRQa4gD3MPfqDw?filename=question_mark.jpg",
+  "external_url": "https://openseacreatures.io/12",
+  "attributes": [
+    {
+      "trait_type": "Base",
+      "value": "jellyfish"
+    },
+    {
+      "trait_type": "Eyes",
+      "value": "wink"
+    },
+    {
+      "trait_type": "Mouth",
+      "value": "happy"
+    },
+    {
+      "trait_type": "Level",
+      "value": 3
+    },
+    {
+      "trait_type": "Stamina",
+      "value": 11.7
+    },
+    {
+      "trait_type": "Personality",
+      "value": "Happy"
+    },
+    {
+      "trait_type": "Aqua Power",
+      "value": 10,
+      "display_type": "boost_number"
+    },
+    {
+      "trait_type": "Stamina Increase",
+      "value": 5,
+      "display_type": "boost_percentage"
+    },
+    {
+      "trait_type": "Generation",
+      "value": 1,
+      "display_type": "number"
+    }
+  ]
+},
+{
+  "id": 13,
+  "name": "map 13",
+  "description": "A piece of the treasure hunt",
+  "image": "https://ipfs.io/ipfs/QmPLnXTgff9BjGyqVSdNAMMSzSQqf7edRRQa4gD3MPfqDw?filename=question_mark.jpg",
+  "external_url": "https://openseacreatures.io/13",
+  "attributes": [
+    {
+      "trait_type": "Base",
+      "value": "starfish"
+    },
+    {
+      "trait_type": "Eyes",
+      "value": "sleepy"
+    },
+    {
+      "trait_type": "Mouth",
+      "value": "surprised"
+    },
+    {
+      "trait_type": "Level",
+      "value": 4
+    },
+    {
+      "trait_type": "Stamina",
+      "value": 90.2
+    },
+    {
+      "trait_type": "Personality",
+      "value": "Sad"
+    },
+    {
+      "trait_type": "Aqua Power",
+      "value": 40,
+      "display_type": "boost_number"
+    },
+    {
+      "trait_type": "Stamina Increase",
+      "value": 10,
+      "display_type": "boost_percentage"
+    },
+    {
+      "trait_type": "Generation",
+      "value": 2,
+      "display_type": "number"
+    }
+  ]
+},
+{
+  "id": 14,
+  "name": "map 14",
+  "description": "A piece of the treasure hunt",
+  "image": "https://ipfs.io/ipfs/QmPLnXTgff9BjGyqVSdNAMMSzSQqf7edRRQa4gD3MPfqDw?filename=question_mark.jpg",
+  "external_url": "https://openseacreatures.io/14",
+  "attributes": [
+    {
+      "trait_type": "Base",
+      "value": "crab"
+    },
+    {
+      "trait_type": "Eyes",
+      "value": "content"
+    },
+    {
+      "trait_type": "Mouth",
+      "value": "pleased"
+    },
+    {
+      "trait_type": "Level",
+      "value": 8
+    },
+    {
+      "trait_type": "Stamina",
+      "value": 1.2
+    },
+    {
+      "trait_type": "Personality",
+      "value": "Sleepy"
+    },
+    {
+      "trait_type": "Aqua Power",
+      "value": 30,
+      "display_type": "boost_number"
+    },
+    {
+      "trait_type": "Stamina Increase",
+      "value": 15,
+      "display_type": "boost_percentage"
+    },
+    {
+      "trait_type": "Generation",
+      "value": 1,
+      "display_type": "number"
+    }
+  ]
+},
+{
+  "id": 15,
+  "name": "map 15",
+  "description": "A piece of the treasure hunt",
+  "image": "https://ipfs.io/ipfs/QmPLnXTgff9BjGyqVSdNAMMSzSQqf7edRRQa4gD3MPfqDw?filename=question_mark.jpg",
+  "external_url": "https://openseacreatures.io/15",
+  "attributes": [
+    {
+      "trait_type": "Base",
+      "value": "narwhal"
+    },
+    {
+      "trait_type": "Eyes",
+      "value": "big"
+    },
+    {
+      "trait_type": "Mouth",
+      "value": "cute"
+    },
+    {
+      "trait_type": "Level",
+      "value": 5
+    },
+    {
+      "trait_type": "Stamina",
+      "value": 1.4
+    },
+    {
+      "trait_type": "Personality",
+      "value": "Boring"
+    },
+    {
+      "trait_type": "Aqua Power",
+      "value": 10,
+      "display_type": "boost_number"
+    },
+    {
+      "trait_type": "Stamina Increase",
+      "value": 5,
+      "display_type": "boost_percentage"
+    },
+    {
+      "trait_type": "Generation",
+      "value": 1,
+      "display_type": "number"
+    }
+  ]
+},
+{
+  "id": 16,
+  "name": "map 16",
+  "description": "A piece of the treasure hunt",
+  "image": "https://ipfs.io/ipfs/QmPLnXTgff9BjGyqVSdNAMMSzSQqf7edRRQa4gD3MPfqDw?filename=question_mark.jpg",
+  "external_url": "https://openseacreatures.io/16",
+  "attributes": [
+    {
+      "trait_type": "Base",
+      "value": "tealfish"
+    },
+    {
+      "trait_type": "Eyes",
+      "value": "joy"
+    },
+    {
+      "trait_type": "Mouth",
+      "value": "happy"
+    },
+    {
+      "trait_type": "Level",
+      "value": 2
+    },
+    {
+      "trait_type": "Stamina",
+      "value": 2.3
+    },
+    {
+      "trait_type": "Personality",
+      "value": "Happy"
+    },
+    {
+      "trait_type": "Aqua Power",
+      "value": 40,
+      "display_type": "boost_number"
+    },
+    {
+      "trait_type": "Stamina Increase",
+      "value": 10,
+      "display_type": "boost_percentage"
+    },
+    {
+      "trait_type": "Generation",
+      "value": 1,
+      "display_type": "number"
+    }
+  ]
+},
+{
+  "id": 17,
+  "name": "map 17",
+  "description": "A piece of the treasure hunt",
+  "image": "https://ipfs.io/ipfs/QmPLnXTgff9BjGyqVSdNAMMSzSQqf7edRRQa4gD3MPfqDw?filename=question_mark.jpg",
+  "external_url": "https://openseacreatures.io/17",
+  "attributes": [
+    {
+      "trait_type": "Base",
+      "value": "goldfish"
+    },
+    {
+      "trait_type": "Eyes",
+      "value": "wink"
+    },
+    {
+      "trait_type": "Mouth",
+      "value": "surprised"
+    },
+    {
+      "trait_type": "Level",
+      "value": 3
+    },
+    {
+      "trait_type": "Stamina",
+      "value": 11.7
+    },
+    {
+      "trait_type": "Personality",
+      "value": "Sad"
+    },
+    {
+      "trait_type": "Aqua Power",
+      "value": 30,
+      "display_type": "boost_number"
+    },
+    {
+      "trait_type": "Stamina Increase",
+      "value": 15,
+      "display_type": "boost_percentage"
+    },
+    {
+      "trait_type": "Generation",
+      "value": 2,
+      "display_type": "number"
+    }
+  ]
+},
+{
+  "id": 18,
+  "name": "map 18",
+  "description": "A piece of the treasure hunt",
+  "image": "https://ipfs.io/ipfs/QmPLnXTgff9BjGyqVSdNAMMSzSQqf7edRRQa4gD3MPfqDw?filename=question_mark.jpg",
+  "external_url": "https://openseacreatures.io/18",
+  "attributes": [
+    {
+      "trait_type": "Base",
+      "value": "jellyfish"
+    },
+    {
+      "trait_type": "Eyes",
+      "value": "sleepy"
+    },
+    {
+      "trait_type": "Mouth",
+      "value": "pleased"
+    },
+    {
+      "trait_type": "Level",
+      "value": 4
+    },
+    {
+      "trait_type": "Stamina",
+      "value": 90.2
+    },
+    {
+      "trait_type": "Personality",
+      "value": "Sleepy"
+    },
+    {
+      "trait_type": "Aqua Power",
+      "value": 10,
+      "display_type": "boost_number"
+    },
+    {
+      "trait_type": "Stamina Increase",
+      "value": 5,
+      "display_type": "boost_percentage"
+    },
+    {
+      "trait_type": "Generation",
+      "value": 1,
+      "display_type": "number"
+    }
+  ]
+},
+{
+  "id": 19,
+  "name": "map 19",
+  "description": "A piece of the treasure hunt",
+  "image": "https://ipfs.io/ipfs/QmPLnXTgff9BjGyqVSdNAMMSzSQqf7edRRQa4gD3MPfqDw?filename=question_mark.jpg",
+  "external_url": "https://openseacreatures.io/19",
+  "attributes": [
+    {
+      "trait_type": "Base",
+      "value": "starfish"
+    },
+    {
+      "trait_type": "Eyes",
+      "value": "content"
+    },
+    {
+      "trait_type": "Mouth",
+      "value": "cute"
+    },
+    {
+      "trait_type": "Level",
+      "value": 8
+    },
+    {
+      "trait_type": "Stamina",
+      "value": 1.2
+    },
+    {
+      "trait_type": "Personality",
+      "value": "Boring"
+    },
+    {
+      "trait_type": "Aqua Power",
+      "value": 40,
+      "display_type": "boost_number"
+    },
+    {
+      "trait_type": "Stamina Increase",
+      "value": 10,
+      "display_type": "boost_percentage"
+    },
+    {
+      "trait_type": "Generation",
+      "value": 1,
+      "display_type": "number"
+    }
+  ]
+}
+  ]
 }
